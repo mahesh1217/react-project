@@ -1,0 +1,60 @@
+/* #app {
+    font-family: "Open Sans", sans-serif;
+  }
+  #app .table {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  #app .table .header,
+  #app .table .row {
+    display: flex;
+  }
+  #app .table .header div,
+  #app .table .row div {
+    flex: 1;
+    padding: 0.2rem 0.4em;
+    border: 1px solid #eeeeee;
+  }
+  #app .table .header .remove,
+  #app .table .row .remove {
+    border: 0;
+    background-color: white;
+    text-align: right;
+    font-weight: 700;
+    flex: 0 0 20px;
+  }
+  #app .table .header .remove a,
+  #app .table .row .remove a {
+    text-decoration: none;
+    color: black;
+  }
+  #app .table .header {
+    background-color: #eeeeee;
+  }
+  #app .table .header div {
+    cursor: pointer;
+  } */
+  .main {
+    margin-top: 5em;
+  }
+  
+  .center {
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .ui.search input {
+    width: 100%;
+    border-radius: 0 !important;
+  }
+  
+  .item {
+    padding: 15px 0px !important;
+  }
+  
+  i.icon {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
