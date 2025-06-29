@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { uuid } from "uuidv4";
+import { v4 as uuid } from "uuid";
 import "./App.css";
 import AddContact from './components/AddContact';
 import ContactList from './components/ContactList';
